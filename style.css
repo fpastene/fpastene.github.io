@@ -132,10 +132,10 @@ si el chk esta chequed
 
 /* Estilos para el párrafo de la descripción */
 .profile__description p {
+    text-align: justify;
     line-height: 1.6; /* Aumenta el espaciado entre líneas para mejor lectura */
     color: #444; /* Color de texto más suave */
     margin-top: 20px;
-    text-align: justify;
     
 }
 .profile__img-container {
@@ -266,14 +266,14 @@ h1 {
     min-height: 80vh;
 }
 .portfolio__project-name {
-    background-image: linear-gradient(#0006,#0006), url("images/icon1.png");
+    background-image: linear-gradient(#0006,#0006), url("images/fprof.png");
     background-position: center;
     background-size: cover;
     display: grid;
     place-content: center;
 }
 .portfolio__project {
-    background-image: linear-gradient(#0009, #0009), url("images/icon1.png");
+    background-image: linear-gradient(#0009, #0009), url("images/fprof.png");
     background-position: center;
     background-size: cover;
     display: grid;
