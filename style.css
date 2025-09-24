@@ -119,8 +119,24 @@ si el chk esta chequed
     background-color: #fff;
 }
 .profile__data-container {
-    max-width: 600px;
+    max-width: 700px;
     padding: 12px;
+}
+.profile__description h2 {
+    
+    font-size: 1.5rem; /* Tamaño de fuente más pequeño */
+    color: #666; /* Color de texto gris */
+    margin-top: 0; /* Elimina el margen superior */
+  
+}
+
+/* Estilos para el párrafo de la descripción */
+.profile__description p {
+    line-height: 1.6; /* Aumenta el espaciado entre líneas para mejor lectura */
+    color: #444; /* Color de texto más suave */
+    margin-top: 20px;
+    text-align: justify;
+    
 }
 .profile__img-container {
     max-width: 500px;
